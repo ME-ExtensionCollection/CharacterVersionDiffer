@@ -1,0 +1,20 @@
+{
+  "kind": "marinara.personal-extension",
+  "version": 1,
+  "config": {
+    "name": "Char Differ",
+    "version": "0.1.0",
+    "description": "Compare a character card with a saved version in meld (or VS Code) and save the merged result. Adds a Meld button to the character editor's Version History. Needs the local helper in helper/chardiffer-helper.mjs to start the diff tool.",
+    "runtime": "client",
+    "capabilities": [
+      "full_page_access"
+    ],
+    "jsPath": [
+      "src/core.js",
+      "src/api.js",
+      "src/bridge.js",
+      "src/ui.js"
+    ],
+    "cssPath": "extension.css"
+  }
+}
